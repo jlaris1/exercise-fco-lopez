@@ -1,0 +1,16 @@
+<table #table class="table">
+  <thead>
+    <th> ID </th> 
+    <th> Tire Number </th>
+    <th> Engine </th>
+  </thead>
+  <tbody>
+      <tr *ngFor="let auto of autos">
+          <td> {{ auto.id }}</td>
+          <td> {{ auto.tireNumber }}</td>
+          <td> {{ auto.engine }}</td>
+      </tr>
+  </tbody>
+</table>
+
+
